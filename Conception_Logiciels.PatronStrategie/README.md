@@ -20,23 +20,3 @@ Carrelage : StrategieConcrete 2 (comportement nettoyer() specifique au carrelage
 Pavee :  StrategieConcrete 3 (comportement nettoyer() specifique au pavee)
 StrategieNettoyage : StrategieAbstraite (comportement nettoyer() a heriter)
 Client : main 
-
-
-Schema du patron:
-
-|---------------------------------------------------|
-|                Robot                              |              |--------------------|
-|---------------------------------------------------|              |StrategieNettoyage  |
-|StrategieNettoyage* strategiNettoyage              |<>------------|--------------------|
-|---------------------------------------------------|              |string nettoyer()   |
-|string nettoyer()                                  |              |                    |
-|setStrategie(StrategieNettoyage* nouvelleStrategie)|              |--------------------|
-|---------------------------------------------------|                        Δ
-                                                                             |
-                                                    ------------------------------------------------
-                                                    |                        |                      |
-                                           |------------------|     |------------------|   |------------------|                                    
-                                           |      Tapis       |     |    Carrelage     |   |    Paves         |     
-                                           |------------------|     |------------------|   |------------------|                  
-                                           |string nettoyer() |     |string nettoyer() |   |string nettoyer() |                           
-                                           |------------------|     |------------------|   |------------------|
