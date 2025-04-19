@@ -15,6 +15,7 @@ int main() {
 
 	BilletAbs* billetDebase = new BilletClassAffaire();
 	BilletAbs* billet = new BilletOptionAccesPrioritaire(billetDebase);
+//	BilletAbs* billet = new BilletOptionBagages(billetOption);
 
 //	billet.setCout(1670);
 
