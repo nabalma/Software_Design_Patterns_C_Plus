@@ -24,11 +24,13 @@ Chaque patron est accompagné de :
 
 ## 📁 Patrons déjà implémentés
 
-| Patron             | Dossier associé                                | Statut     |
-|--------------------|-------------------------------------------------|------------|
-| 🧠 Stratégie        | `Conception_Logicials.PatronStrategie`         | ✅ Terminé |
-| 👁️ Observateur      | `Conception_Logicials.PatronObservateur`       | ✅ Terminé |
-| 🏗️ À venir...       | `PatronFactory`, `PatronComposite`, etc.       | 🔄 En cours |
+| Patron              | Dossier associé                                  | Statut     |
+|---------------------|--------------------------------------------------|------------|
+| 🧠 Stratégie         | `Conception_Logicials.PatronStrategie`           | ✅ Terminé |
+| 👁️ Observateur       | `Conception_Logicials.PatronObservateur`         | ✅ Terminé |
+| 🎨 Décorateur        | `Conception_Logicials.PatronDecorateur`          | ✅ Terminé |
+| 🧰 Patron de méthode | `Conception_Logicials.PatronTemplateMethod`      | ✅ Terminé |
+| 🏗️ À venir...        | `PatronFactory`, `PatronComposite`, etc.         | 🔄 En cours |
 
 ---
 
