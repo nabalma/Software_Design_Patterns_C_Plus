@@ -34,7 +34,7 @@ Chaque patron est accompagné de :
 
 ---
 
-## 🧩 Résumé des patrons de conception appliqués
+## 🧩 Contexte d'application des patrons de conception appliqués
 
 | Patron                | Dossier associé                             | Contexte d'application                                                                 |
 |-----------------------|---------------------------------------------|-----------------------------------------------------------------------------------------|
