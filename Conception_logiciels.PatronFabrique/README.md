@@ -29,21 +29,25 @@ Ce patron permet de déléguer l’instanciation d’un objet à une **fabrique 
 
 ---
 
-✅ Avantages du patron Factory Method
+## ✅ Avantages du patron Factory Method
 🔒 Encapsulation : le code client ne connaît jamais les classes concrètes
 ➕ Ouvert à l’extension : ajouter un nouveau type de profil ne casse pas le code existant
 🧼 Responsabilités séparées : chaque générateur gère la création de son propre type
 
 ---
 
-🔄 Possibilités d’extension
+## 🔄 Possibilités d’extension
 Ajout d’autres profils (ex : ProfilPartenaire, ProfilInvité)
 Intégration avec une base de données ou une interface utilisateur
 Version avec une fabrique centralisée + paramètre (pour comparaison)
 
-📜 Auteur
+---
+
+## 📜 Auteur
 👤 Ousseynou Nabalma
 🔗 GitHub - Software_Design_Patterns_C_Plus
+
+---
 
 🧠 "Le bon objet, au bon moment, sans dépendance directe."
 C’est toute la force du Factory Method.
