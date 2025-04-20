@@ -34,6 +34,16 @@ Chaque patron est accompagné de :
 
 ---
 
+## 🧩 Résumé des patrons de conception appliqués
+
+| Patron                | Dossier associé                             | Contexte d'application                                                                 |
+|-----------------------|---------------------------------------------|-----------------------------------------------------------------------------------------|
+| 🧠 Stratégie          | `Conception_Logicials.PatronStrategie`       | Un **robot nettoyeur** adapte dynamiquement sa stratégie selon le **type de sol détecté** (tapis, carrelage, pavé…). |
+| 👁️ Observateur        | `Conception_Logicials.PatronObservateur`     | Un **système de règles de construction** notifie automatiquement les utilisateurs (ingénieur, architecte…) en cas de changement. |
+| 🎨 Décorateur         | `Conception_Logicials.PatronDecorateur`      | Un système de **réservation de billets d’avion** permet d’ajouter dynamiquement des **options** (bagage, repas, etc.) à un billet de base. |
+| 🧰 Patron de méthode  | `Conception_Logicials.PatronTemplateMethod`  | Un **planificateur de tournées de livraison** suit un enchaînement fixe avec des étapes personnalisables selon le **secteur** (alimentaire, pharmaceutique…). |
+
+---
 ## 🗂️ Structure des dossiers
 Chaque patron est un projet Visual Studio et comprend les classes implementant la structure du patron, de meme qun main.cpp pour tester les sorties consoles.
 Vous trouverez egalement dans le dossier du projet un image du diagramme de classe edité avec Entreprise Architecte
