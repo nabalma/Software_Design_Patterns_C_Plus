@@ -86,11 +86,11 @@ Lecture automatique et récursive de toute la structure avec un seul appel lireM
 Affichage de tous les titres sans distinction entre chansons et sous-playlists.
 
 🎯 Compétences mises en œuvre
-⚙️ Programmation orientée objet en C++
-🏗️ Application avancée du design pattern Composite
-♻️ Gestion dynamique de mémoire (new, delete)
-🔁 Implémentation de structures récursives performantes
-🗂️ Organisation modulaire et séparation des responsabilités en .h et .cpp
+- ⚙️ Programmation orientée objet en C++
+- 🏗️ Application avancée du design pattern Composite
+- ♻️ Gestion dynamique de mémoire (new, delete)
+- 🔁 Implémentation de structures récursives performantes
+- 🗂️ Organisation modulaire et séparation des responsabilités en .h et .cpp
 
 
 ## 📂 Arborescence du projet
