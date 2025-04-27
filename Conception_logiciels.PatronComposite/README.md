@@ -55,24 +55,18 @@ Une seule méthode lireMusique() permet de lire aussi bien une chanson simple qu
 
 🔁 Ajout et retrait dynamiques :
 Les chansons et sous-playlists peuvent être ajoutées ou retirées dynamiquement.
-
 ♾️ Imbrication infinie :
 Une PlayList peut contenir d'autres PlayLists sans limitation de profondeur.
-
 📜 Affichage des titres :
 Affichage de tous les titres de manière récursive.
-
 📈 Extensibilité facile :
 La structure permet d'ajouter de nouvelles fonctionnalités (ex : calcul de la durée totale) sans modifier la logique principale.
-
 📈 Diagramme UML
 Le projet contient également un diagramme de classes UML disponible dans :
 diagramme_classes_composite.png
 
 Il présente :
-
 Les relations entre AbstractMusique, Chanson et PlayList,
-
 L'usage du polymorphisme et du design Composite.
 
 ---
