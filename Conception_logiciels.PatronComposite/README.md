@@ -35,20 +35,6 @@ Le projet est structuré autour de trois principales classes :
 
 ---
 
-## 📂 Arborescence du projet
-
-```text
-/Conception_logiciels.PatronComposite
-│
-├── AbstractMusique.h
-├── AbstractMusique.cpp
-├── Chanson.h
-├── Chanson.cpp
-├── PlayList.h
-├── PlayList.cpp
-├── main.cpp
-├── diagramme_classes_composite.png  (Diagramme UML)
-└── README.md
 🏗️ Architecture du projet
 AbstractMusique (classe abstraite) :
 ➔ Interface commune pour tous les éléments musicaux (lireMusique, ajouterMusique, retirerMusique, listerMusique, afficherTitre, calculerDuree).
@@ -60,6 +46,8 @@ Chanson (classe feuille) :
 PlayList (classe composite) :
 ➔ Peut contenir plusieurs objets AbstractMusique (des chansons ou d'autres playlists).
 ➔ Permet une organisation récursive de collections musicales.
+
+---
 
 🚀 Fonctionnalités principales
 🎯 Lecture unifiée :
@@ -82,12 +70,16 @@ Le projet contient également un diagramme de classes UML disponible dans :
 diagramme_classes_composite.png
 
 Il présente :
+
 Les relations entre AbstractMusique, Chanson et PlayList,
+
 L'usage du polymorphisme et du design Composite.
 
+---
 
 🧪 Exemples d'utilisation
 Création de chansons individuelles.
+
 Regroupement de plusieurs chansons dans une PlayList.
 Insertion de PlayLists dans d'autres PlayLists (méga composites).
 Lecture automatique et récursive de toute la structure avec un seul appel lireMusique().
@@ -100,11 +92,18 @@ Affichage de tous les titres sans distinction entre chansons et sous-playlists.
 🔁 Implémentation de structures récursives performantes
 🗂️ Organisation modulaire et séparation des responsabilités en .h et .cpp
 
-🔗 Accès au projet
-Lien vers le projet GitHub — Patron Composite
 
-🧠 Remarques
-Ce projet illustre comment le Composite Pattern permet de gérer de manière élégante des structures récursives complexes,
-tout en maintenant une interface simple, évolutive et maintenable.
+## 📂 Arborescence du projet
 
-L'approche facilite la création de méga-playlists imbriquées, tout en offrant une gestion homogène des objets simples et composites.
+```text
+/Conception_logiciels.PatronComposite
+│
+├── AbstractMusique.h
+├── AbstractMusique.cpp
+├── Chanson.h
+├── Chanson.cpp
+├── PlayList.h
+├── PlayList.cpp
+├── main.cpp
+├── diagramme_classes_composite.png  (Diagramme UML)
+└── README.md
