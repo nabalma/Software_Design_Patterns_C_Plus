@@ -6,14 +6,12 @@ Ce projet illustre l'utilisation combinée de deux **patrons de conception en C+
   - Version **classe** (héritage)
   - Version **objet** (composition)
 
-- 🏛️ Le **patron Façade** peut être envisagé pour regrouper plusieurs adaptateurs de paiement sous une seule interface.
-
 ---
 
 ## 📁 Arborescence du projet
 
 ```plaintext
-Adaptateur_Facade_Paiement/
+Adaptateur_Paiement/
 ├── main.cpp
 ├── PasserellePaiement.h / PasserellePaiement.cpp        # Interface cible
 ├── StripeAPI.h / StripeAPI.cpp                          # API externe (existante)
@@ -39,7 +37,7 @@ Il s’agit de démontrer :
 | Patron           | Rôle joué dans le projet                                                                 |
 |------------------|------------------------------------------------------------------------------------------|
 | **Adaptateur**   | Transforme l’interface de `StripeAPI` en celle de `PasserellePaiement`                  |
-| **Façade**       | (Éventuel) pour centraliser l’accès à différents moyens de paiement                     |
+
 
 ---
 
