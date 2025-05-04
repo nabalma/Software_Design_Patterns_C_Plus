@@ -120,7 +120,6 @@ Augmentee de son adapation Passerelle Paiement
 ## 🔗 Suggestions d’amélioration
 
 - Ajouter d’autres adaptateurs (`PaypalAdapter`, `CryptoAdapter`)
-- Créer une **classe Façade** (`GestionnairePaiements`) qui choisit dynamiquement la passerelle
 - Ajouter des **tests unitaires** pour vérifier les appels réels
 
 ---
@@ -128,7 +127,6 @@ Augmentee de son adapation Passerelle Paiement
 ## 🧠 Crédits
 
 Projet pédagogique en C++ — démonstration des patrons **Adapter** (Classe & Objet)  
-et **Façade** à des fins de **clarté architecturale** et de **réutilisabilité du code**.
+à des fins de **clarté architecturale** et de **réutilisabilité du code**.
 
 Développé dans le cadre de l'apprentissage des design patterns.  
-🎓 *Auteur : Ton Nom ici*
