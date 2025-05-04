@@ -34,6 +34,8 @@ Chaque patron est accompagné de :
 | 🏨 Fabrique Abstraite | `Conception_Logicials.PatronFabriqueAbstraite`         | ✅ Terminé |
 | 🧱 Composite          | `Conception_logiciels.PatronComposite`                 | ✅ Terminé |
 | 🔁 Itérateur          | `Conception_Logiciels.PatronIterateur`                 | ✅ Terminé |
+| 📝 Commande           | `Conception_Logiciels.PatronCommande`                  | ✅ Terminé |
+| 🔌 Adaptateur         | `Conception_Logiciels.PatronAdaptateurFacade`         | ✅ Terminé |
 | ⚙️ À venir...          | `PatronState`, `PatronAdapter`, `PatronSingleton`, etc. | 🔄 En cours |
 
 ---
@@ -50,7 +52,8 @@ Chaque patron est accompagné de :
 | 🏨 Fabrique Abstraite  | `Conception_Logicials.PatronFabriqueAbstraite`      | Un **hôtel** propose des **formules packagées** (standard, confort, luxe) modélisées par des **fabriques concrètes**. |
 | 🧱 Composite           | `Conception_logiciels.PatronComposite`              | Une **application musicale** permet de composer des **playlists récursives** avec chansons et sous-playlists. |
 | 🔁 Itérateur           | `Conception_Logiciels.PatronIterateur`              | Un **dépôt de documents** est parcouru de manière **uniforme et indépendante** grâce à un **itérateur abstrait**. |
-
+| 📝 Commande            | `Conception_Logiciels.PatronCommande`               | Un **bloc-notes intelligent** permet d'**annuler et rétablir** les actions effectuées sur un panier ou un contenu. |
+| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateurFacade`       | Un **système de paiement** permet d’intégrer une API externe (`StripeAPI`) via deux versions d’**adaptateurs**. |
 ---
 
 ## 🗂️ Structure des dossiers
