@@ -1,4 +1,4 @@
-﻿# 🔌💳 Adaptateur – Paiement Stripe (C++ Design Patterns)
+﻿# 🔌💳 Adaptateur Design Patern – StripAPIAdapter (C++ Design Patterns)
 
 Ce projet illustre l'utilisation combinée de deux **patrons de conception en C++** :
 
