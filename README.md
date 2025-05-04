@@ -36,7 +36,7 @@ Chaque patron est accompagné de :
 | 🔁 Itérateur          | `Conception_Logiciels.PatronIterateur`                 | ✅ Terminé |
 | 📝 Commande           | `Conception_Logiciels.PatronCommande`                  | ✅ Terminé |
 | 🔌 Adaptateur         | `Conception_Logiciels.PatronAdaptateurFacade`         | ✅ Terminé |
-| ⚙️ À venir...          | `PatronState`, `PatronAdapter`, `PatronSingleton`, etc. | 🔄 En cours |
+| ⚙️ À venir...          | `PatronState`              , `PatronSingleton`, etc. | 🔄 En cours |
 
 ---
 
@@ -53,7 +53,7 @@ Chaque patron est accompagné de :
 | 🧱 Composite           | `Conception_logiciels.PatronComposite`              | Une **application musicale** permet de composer des **playlists récursives** avec chansons et sous-playlists. |
 | 🔁 Itérateur           | `Conception_Logiciels.PatronIterateur`              | Un **dépôt de documents** est parcouru de manière **uniforme et indépendante** grâce à un **itérateur abstrait**. |
 | 📝 Commande            | `Conception_Logiciels.PatronCommande`               | Un **bloc-notes intelligent** permet d'**annuler et rétablir** les actions effectuées sur un panier ou un contenu. |
-| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateurFacade`       | Un **système de paiement** permet d’intégrer une API externe (`StripeAPI`) via deux versions d’**adaptateurs**. |
+| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateur`            | Un **système de paiement** permet d’intégrer une API externe (`StripeAPI`) via deux versions d’**adaptateurs**. |
 ---
 
 ## 🗂️ Structure des dossiers
