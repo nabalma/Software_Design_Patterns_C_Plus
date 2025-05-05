@@ -12,15 +12,15 @@ Le projet est organisé autour du design pattern **Facade**, qui permet de masqu
 - `CameraSurveillance` : déclenche l’enregistrement vidéo.
 
 ### 📊 Diagramme d'architecture
-+-------------------+
-| SecuriteFacade | <=== Interface unique
-+-------------------+
-| | |
-| | |
-V V V
-+--------+ +--------+ +---------------------+
-| Portes | | Alarme | | CameraSurveillance |
-+--------+ +--------+ +---------------------+
+       +-------------------+
+       |  SecuriteFacade   |   <=== Interface unique
+       +-------------------+
+         |       |       |
+         V       V       V
+    +--------+ +--------+ +---------------------+
+    | Portes | | Alarme | | CameraSurveillance |
+    +--------+ +--------+ +---------------------+
+
 
 ## 🚀 Fonctionnalités principales
 
