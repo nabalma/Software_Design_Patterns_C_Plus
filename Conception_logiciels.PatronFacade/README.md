@@ -12,8 +12,15 @@ Le projet est organisé autour du design pattern **Facade**, qui permet de masqu
 - `CameraSurveillance` : déclenche l’enregistrement vidéo.
 
 ### 📊 Diagramme d'architecture
-
-
++-------------------+
+| SecuriteFacade | <=== Interface unique
++-------------------+
+| | |
+| | |
+V V V
++--------+ +--------+ +---------------------+
+| Portes | | Alarme | | CameraSurveillance |
++--------+ +--------+ +---------------------+
 
 ## 🚀 Fonctionnalités principales
 
@@ -21,22 +28,6 @@ Le projet est organisé autour du design pattern **Facade**, qui permet de masqu
 - Verrouillage de toutes les portes
 - Activation de l'alarme
 - Déclenchement de l'enregistrement vidéo
-
-## 🔧 Compilation & Exécution
-
-## Prérequis
-
-- Un compilateur C++ (g++, clang, etc.)
-- Un environnement Unix/Linux ou Windows (via WSL, MinGW ou autre)
-
-## Compilation
-
-Assurez-vous que tous les fichiers `.cpp` et `.h` sont dans le même dossier. Puis, exécutez :
-
-```bash
-g++ main.cpp SecuriteFacade.cpp Portes.cpp Alarme.cpp CameraSurveillance.cpp -o securite
-
----
 
 ## 📂 Fichiers inclus
 
@@ -62,8 +53,4 @@ Ce projet illustre l’usage du **Facade Design Pattern**, un des patrons de con
 - Fournir un **point d’accès unique** (ici `SecuriteFacade`) à plusieurs modules
 
 ---
-
-## 📸 Exemple de sortie console
-
-Lors de l'exécution, le programme produit la sortie suivante :
 
