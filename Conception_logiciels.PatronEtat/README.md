@@ -34,5 +34,23 @@ Il simule un système de connexion réseau avec transitions entre différents é
 
 ---
 
-## 📂 Arborescence du projet
+## 📚 Concepts clés
+🎯 Encapsulation : chaque état encapsule son propre comportement.
+🔁 Transition dynamique : l’objet Connexion délègue les actions à l’état courant.
+🧱 Extensibilité : ajouter un nouvel état ne casse pas le code existant.
 
+---
+
+## 📂 Arborescence du projet
+PatronEtat/
+├── Connexion.cpp
+├── Connexion.h
+├── EtatAbstrait.cpp
+├── EtatAbstrait.h
+├── EtatConnecte.cpp
+├── EtatConnecte.h
+├── EtatDeconnecte.cpp
+├── EtatDeconnecte.h
+├── EtatEnCoursDeConnexion.cpp
+├── EtatEnCoursDeConnexion.h
+└── main.cpp
