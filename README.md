@@ -21,22 +21,20 @@ Chaque patron est accompagné de :
 - ✅ Un fichier `main.cpp` de démonstration prêt à compiler
 
 ---
-
-## 📁 Patrons déjà implémentés
-
 | Patron               | Dossier associé                                         | Statut     |
 |----------------------|---------------------------------------------------------|------------|
-| 🧠 Stratégie          | `Conception_Logicials.PatronStrategie`                 | ✅ Terminé |
-| 👁️ Observateur        | `Conception_Logicials.PatronObservateur`               | ✅ Terminé |
-| 🎨 Décorateur         | `Conception_Logicials.PatronDecorateur`                | ✅ Terminé |
-| 🧰 Patron de méthode  | `Conception_Logicials.PatronTemplateMethod`            | ✅ Terminé |
-| 🏭 Fabrique           | `Conception_Logicials.PatronFabrique`                  | ✅ Terminé |
-| 🏨 Fabrique Abstraite | `Conception_Logicials.PatronFabriqueAbstraite`         | ✅ Terminé |
-| 🧱 Composite          | `Conception_logiciels.PatronComposite`                 | ✅ Terminé |
+| 🧠 Stratégie          | `Conception_Logiciels.PatronStrategie`                 | ✅ Terminé |
+| 👁️ Observateur        | `Conception_Logiciels.PatronObservateur`               | ✅ Terminé |
+| 🎨 Décorateur         | `Conception_Logiciels.PatronDecorateur`                | ✅ Terminé |
+| 🧰 Méthode Template   | `Conception_Logiciels.PatronMethode`                   | ✅ Terminé |
+| 🏭 Fabrique           | `Conception_Logiciels.PatronFabrique`                  | ✅ Terminé |
+| 🏨 Fabrique Abstraite | `Conception_Logiciels.PatronFabriqueAbstraite`         | ✅ Terminé |
+| 🧱 Composite          | `Conception_Logiciels.PatronComposite`                 | ✅ Terminé |
 | 🔁 Itérateur          | `Conception_Logiciels.PatronIterateur`                 | ✅ Terminé |
 | 📝 Commande           | `Conception_Logiciels.PatronCommande`                  | ✅ Terminé |
-| 🔌 Adaptateur         | `Conception_Logiciels.PatronAdaptateurFacade`         | ✅ Terminé |
-| ⚙️ À venir...          | `PatronState`              , `PatronSingleton`, etc. | 🔄 En cours |
+| 🔌 Adaptateur         | `Conception_Logiciels.PatronAdaptateurFacade`          | ✅ Terminé |
+| 🔒 Singleton          | `Conception_Logiciels.PatronSingleton`                 | ✅ Terminé |
+| 🔄 État               | `Conception_Logiciels.PatronEtat`                      | ✅ Terminé |
 
 ---
 
@@ -44,16 +42,19 @@ Chaque patron est accompagné de :
 
 | Patron                | Dossier associé                                     | Contexte d'application                                                                                      |
 |-----------------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| 🧠 Stratégie           | `Conception_Logicials.PatronStrategie`              | Un **robot nettoyeur** adapte dynamiquement sa stratégie selon le **type de sol détecté** (tapis, carrelage…). |
-| 👁️ Observateur         | `Conception_Logicials.PatronObservateur`            | Un **système de règles de construction** notifie automatiquement les utilisateurs (ingénieur, architecte…).  |
-| 🎨 Décorateur          | `Conception_Logicials.PatronDecorateur`             | Un système de **réservation de billets d’avion** permet d’ajouter dynamiquement des **options personnalisées**. |
-| 🧰 Patron de méthode   | `Conception_Logicials.PatronTemplateMethod`         | Un **planificateur de tournées de livraison** suit une structure fixe avec des étapes selon le **secteur**. |
-| 🏭 Fabrique            | `Conception_Logicials.PatronFabrique`               | Un **générateur de profils utilisateurs** (admin, client, employé) repose sur des **fabriques dédiées**.       |
-| 🏨 Fabrique Abstraite  | `Conception_Logicials.PatronFabriqueAbstraite`      | Un **hôtel** propose des **formules packagées** (standard, confort, luxe) modélisées par des **fabriques concrètes**. |
-| 🧱 Composite           | `Conception_logiciels.PatronComposite`              | Une **application musicale** permet de composer des **playlists récursives** avec chansons et sous-playlists. |
+| 🧠 Stratégie           | `Conception_Logiciels.PatronStrategie`              | Un **robot nettoyeur** adapte dynamiquement sa stratégie selon le **type de sol détecté** (tapis, carrelage…). |
+| 👁️ Observateur         | `Conception_Logiciels.PatronObservateur`            | Un **système de règles de construction** notifie automatiquement les utilisateurs (ingénieur, architecte…).  |
+| 🎨 Décorateur          | `Conception_Logiciels.PatronDecorateur`             | Un système de **réservation de billets d’avion** permet d’ajouter dynamiquement des **options personnalisées**. |
+| 🧰 Méthode Template    | `Conception_Logiciels.PatronMethode`                | Un **planificateur de tournées de livraison** suit une structure fixe avec des étapes selon le **secteur**. |
+| 🏭 Fabrique            | `Conception_Logiciels.PatronFabrique`               | Un **générateur de profils utilisateurs** (admin, client, employé) repose sur des **fabriques dédiées**.       |
+| 🏨 Fabrique Abstraite  | `Conception_Logiciels.PatronFabriqueAbstraite`      | Un **hôtel** propose des **formules packagées** (standard, confort, luxe) modélisées par des **fabriques concrètes**. |
+| 🧱 Composite           | `Conception_Logiciels.PatronComposite`              | Une **application musicale** permet de composer des **playlists récursives** avec chansons et sous-playlists. |
 | 🔁 Itérateur           | `Conception_Logiciels.PatronIterateur`              | Un **dépôt de documents** est parcouru de manière **uniforme et indépendante** grâce à un **itérateur abstrait**. |
 | 📝 Commande            | `Conception_Logiciels.PatronCommande`               | Un **bloc-notes intelligent** permet d'**annuler et rétablir** les actions effectuées sur un panier ou un contenu. |
-| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateur`            | Un **système de paiement** permet d’intégrer une API externe (`StripeAPI`) via deux versions d’**adaptateurs**. |
+| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateurFacade`       | Un **système de paiement** permet d’intégrer une API externe (`StripeAPI`) via deux versions d’**adaptateurs**. |
+| 🔒 Singleton           | `Conception_Logiciels.PatronSingleton`              | Un **gestionnaire de session utilisateur** assure qu'une seule session est active à tout moment, centralisant l'accès à l'utilisateur connecté. |
+| 🔄 État                | `Conception_Logiciels.PatronEtat`                   | Un **système de connexion** change dynamiquement de comportement selon l'état : déconnecté, en cours de connexion, connecté. |
+
 ---
 
 ## 🗂️ Structure des dossiers
