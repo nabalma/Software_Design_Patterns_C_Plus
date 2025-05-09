@@ -40,22 +40,23 @@ Chaque patron est accompagné de :
 
 ## 🧩 Contexte d'application des patrons de conception appliqués
 
-| Patron                | Dossier associé                                     | Contexte d'application                                                                                      |
-|-----------------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Patron                | Dossier associé                                     | Contexte d'application |
+|-----------------------|-----------------------------------------------------|-------------------------|
 | 🧠 Stratégie           | `Conception_Logiciels.PatronStrategie`              | Un **robot nettoyeur** adapte dynamiquement sa stratégie selon le **type de sol détecté** (tapis, carrelage…). |
-| 👁️ Observateur         | `Conception_Logiciels.PatronObservateur`            | Un **système de règles de construction** notifie automatiquement les utilisateurs (ingénieur, architecte…).  |
-| 🎨 Décorateur          | `Conception_Logiciels.PatronDecorateur`             | Un système de **réservation de billets d’avion** permet d’ajouter dynamiquement des **options personnalisées**. |
-| 🧰 Méthode Template    | `Conception_Logiciels.PatronMethode`                | Un **planificateur de tournées de livraison** suit une structure fixe avec des étapes selon le **secteur**. |
-| 🏭 Fabrique            | `Conception_Logiciels.PatronFabrique`               | Un **générateur de profils utilisateurs** (admin, client, employé) repose sur des **fabriques dédiées**.       |
-| 🏨 Fabrique Abstraite  | `Conception_Logiciels.PatronFabriqueAbstraite`      | Un **hôtel** propose des **formules packagées** (standard, confort, luxe) modélisées par des **fabriques concrètes**. |
-| 🧱 Composite           | `Conception_Logiciels.PatronComposite`              | Une **application musicale** permet de composer des **playlists récursives** avec chansons et sous-playlists. |
-| 🔁 Itérateur           | `Conception_Logiciels.PatronIterateur`              | Un **dépôt de documents** est parcouru de manière **uniforme et indépendante** grâce à un **itérateur abstrait**. |
-| 📝 Commande            | `Conception_Logiciels.PatronCommande`               | Un **bloc-notes intelligent** permet d'**annuler et rétablir** les actions effectuées sur un panier ou un contenu. |
-| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateurFacade`       | Un **système de paiement** permet d’intégrer une API externe (`StripeAPI`) via deux versions d’**adaptateurs**. |
-| 🔒 Singleton           | `Conception_Logiciels.PatronSingleton`              | Un **gestionnaire de session utilisateur** assure qu'une seule session est active à tout moment, centralisant l'accès à l'utilisateur connecté. |
-| 🔄 État                | `Conception_Logiciels.PatronEtat`                   | Un **système de connexion** change dynamiquement de comportement selon l'état : déconnecté, en cours de connexion, connecté. |
+| 👁️ Observateur         | `Conception_Logiciels.PatronObservateur`            | Un **système de règles de construction** notifie automatiquement les utilisateurs (ingénieur, architecte…) en fonction de changements déclenchés dans le modèle. |
+| 🎨 Décorateur          | `Conception_Logiciels.PatronDecorateur`             | Un système de **réservation de billets d’avion** permet d’ajouter dynamiquement des **options personnalisées** telles que bagages, repas ou assurance. |
+| 🧰 Méthode Template    | `Conception_Logiciels.PatronMethode`                | Un **planificateur de tournées de livraison** suit une structure d’algorithme fixe, mais laisse certaines étapes spécifiques aux sous-classes selon le **secteur de livraison**. |
+| 🏭 Fabrique            | `Conception_Logiciels.PatronFabrique`               | Un **générateur de profils utilisateurs** instancie dynamiquement des objets `Admin`, `Client`, ou `Employé` à partir de **fabriques spécialisées**. |
+| 🏨 Fabrique Abstraite  | `Conception_Logiciels.PatronFabriqueAbstraite`      | Un **système hôtelier** crée des **formules complètes (chambre + services)** selon les gammes `Standard`, `Confort`, ou `Luxe`, via des **familles de produits cohérentes**. |
+| 🧱 Composite           | `Conception_Logiciels.PatronComposite`              | Une **application musicale** gère des **playlists récursives**, contenant à la fois des morceaux simples et d’autres playlists, tout en traitant l’ensemble uniformément. |
+| 🔁 Itérateur           | `Conception_Logiciels.PatronIterateur`              | Un **dépôt documentaire** est parcouru sans exposer sa structure interne, grâce à un **itérateur abstrait** qui permet une navigation uniforme. |
+| 📝 Commande            | `Conception_Logiciels.PatronCommande`               | Un **bloc-notes** permet d’enregistrer des commandes (`AjoutTexte`, `Annuler`, `Rétablir`) pour appliquer et revenir sur des modifications de façon centralisée. |
+| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateurFacade`       | Un **module de paiement** adapte une API externe (`StripeAPI`) pour la rendre compatible avec une interface interne (`PasserellePaiement`), via héritage ou composition. |
+| 🔒 Singleton           | `Conception_Logiciels.PatronSingleton`              | Un **gestionnaire de session** garantit qu'une seule instance est active dans l’application, centralisant l’accès à l’utilisateur connecté. |
+| 🔄 État                | `Conception_Logiciels.PatronEtat`                   | Un **système de connexion réseau** change dynamiquement de comportement en fonction de son état : déconnecté, tentative de connexion, connecté. |
 
 ---
+
 
 ## 🗂️ Structure des dossiers
 
