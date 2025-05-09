@@ -57,23 +57,6 @@ Chaque patron est accompagné de :
 
 ---
 
-## 🧩 Contexte d'application des patrons de conception appliqués
-
-| Patron                | Dossier associé                                     | Contexte d'application |
-|-----------------------|-----------------------------------------------------|-------------------------|
-| 🧠 Stratégie           | `Conception_Logiciels.PatronStrategie`              | Un robot nettoyeur adapte dynamiquement sa stratégie selon le type de sol (tapis, carrelage...).<br>Cette flexibilité permet un changement de comportement à l'exécution sans modifier le code. |
-| 👁️ Observateur         | `Conception_Logiciels.PatronObservateur`            | Un système de règles de construction notifie automatiquement les utilisateurs (ingénieur, architecte...).<br>Chaque modification dans le modèle est relayée aux observateurs abonnés. |
-| 🎨 Décorateur          | `Conception_Logiciels.PatronDecorateur`             | Un système de réservation de vol permet d’ajouter dynamiquement des options (bagages, repas, assurance).<br>Ces options sont appliquées sans modifier la classe de base. |
-| 🧰 Méthode Template    | `Conception_Logiciels.PatronMethode`                | Un planificateur de livraison suit une structure fixe (préparation, livraison, validation).<br>Les sous-classes adaptent les étapes selon les zones desservies. |
-| 🏭 Fabrique            | `Conception_Logiciels.PatronFabrique`               | Un générateur de profils crée dynamiquement différents utilisateurs (Admin, Client, Employé).<br>Chaque type repose sur une fabrique dédiée qui masque la complexité de création. |
-| 🏨 Fabrique Abstraite  | `Conception_Logiciels.PatronFabriqueAbstraite`      | Un système hôtelier génère des formules cohérentes (Standard, Confort, Luxe).<br>Chaque formule regroupe des services compatibles comme chambre, restauration, WiFi. |
-| 🧱 Composite           | `Conception_Logiciels.PatronComposite`              | Une application musicale permet de composer des playlists contenant chansons et sous-playlists.<br>Le traitement est uniforme, quelle que soit la profondeur de la structure. |
-| 🔁 Itérateur           | `Conception_Logiciels.PatronIterateur`              | Un dépôt de documents offre un parcours uniforme des éléments sans exposer sa structure.<br>L’itérateur masque l’implémentation concrète (liste, vecteur, etc.). |
-| 📝 Commande            | `Conception_Logiciels.PatronCommande`               | Un bloc-notes encapsule chaque action (ajout, suppression) comme commande indépendante.<br>Les opérations peuvent être annulées ou répétées grâce à un historique. |
-| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateurFacade`       | Une API de paiement tierce (Stripe) est adaptée à l’interface maison via deux approches.<br>Une version par héritage et une version par composition sont proposées. |
-| 🔒 Singleton           | `Conception_Logiciels.PatronSingleton`              | Le gestionnaire de session garantit une seule instance accessible globalement.<br>Il centralise l’accès à l’utilisateur actif et contrôle les connexions. |
-| 🔄 État                | `Conception_Logiciels.PatronEtat`                   | Une connexion réseau passe dynamiquement par plusieurs états (déconnecté, en cours, connecté).<br>Chaque état encapsule son comportement et gère les transitions. |
-
 ## 🗂️ Structure des dossiers
 
 Chaque patron est un projet Visual Studio et comprend :
