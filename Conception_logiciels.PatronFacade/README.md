@@ -50,7 +50,7 @@ Ce projet illustre l’usage du **Facade Design Pattern**, un des patrons de con
 
 - Simplifier l’utilisation d’un système complexe
 - Cacher la logique interne de plusieurs sous-systèmes
-- Fournir un **point d’accès unique** (ici `SecuriteFacade`) à plusieurs modules
+- Fournir un **point d’accès unique** (ici `SecuriteFacade`) à plusieurs claases du sous syteme (modules)
 
 ---
 
