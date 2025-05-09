@@ -57,6 +57,25 @@ Chaque patron est accompagné de :
 
 ---
 
+## 🧩 Contexte d'application des patrons de conception appliqués
+
+| Patron                | Dossier associé                                     | Contexte d'application |
+|-----------------------|-----------------------------------------------------|-------------------------|
+| 🧠 Stratégie           | `Conception_Logiciels.PatronStrategie`              | Un **robot nettoyeur** adapte dynamiquement sa stratégie de déplacement en fonction du **type de sol détecté** (tapis, carrelage, parquet, etc.), en changeant de comportement à l'exécution sans modifier son code. |
+| 👁️ Observateur         | `Conception_Logiciels.PatronObservateur`            | Un **système de règles de construction** notifie automatiquement les utilisateurs concernés (ingénieur, architecte, gestionnaire) lorsqu’une nouvelle règle est ajoutée ou lorsqu’un élément du modèle est modifié. |
+| 🎨 Décorateur          | `Conception_Logiciels.PatronDecorateur`             | Un **service de réservation aérienne** permet d’ajouter dynamiquement des **services optionnels** (bagage, repas, assurance, choix de siège) à une réservation de base sans modifier la classe principale. |
+| 🧰 Méthode Template    | `Conception_Logiciels.PatronMethode`                | Un **planificateur de tournées logistiques** définit une **structure commune d’algorithme** pour organiser une livraison, tout en laissant les sous-classes spécialiser les étapes selon le **secteur ou la région desservie**. |
+| 🏭 Fabrique            | `Conception_Logiciels.PatronFabrique`               | Un **générateur de profils utilisateurs** permet de créer différents types de comptes (`Admin`, `Client`, `Employé`) via des **fabriques dédiées**, tout en masquant les détails d’instanciation au client. |
+| 🏨 Fabrique Abstraite  | `Conception_Logiciels.PatronFabriqueAbstraite`      | Un **système de réservation d’hôtel** génère dynamiquement des **formules complètes** selon la gamme choisie (Standard, Confort, Luxe), chaque formule combinant chambre, restauration, services et options réseau. |
+| 🧱 Composite           | `Conception_Logiciels.PatronComposite`              | Une **application de gestion musicale** permet à l’utilisateur de manipuler de manière uniforme des **chansons individuelles** et des **playlists** contenant d’autres playlists ou chansons, en mode récursif. |
+| 🔁 Itérateur           | `Conception_Logiciels.PatronIterateur`              | Un **dépôt de documents** met à disposition un **parcours uniforme** de ses éléments (fichiers, dossiers), sans exposer la structure sous-jacente (vecteur, liste, arbre) au client. |
+| 📝 Commande            | `Conception_Logiciels.PatronCommande`               | Un **bloc-notes intelligent** gère les actions de l’utilisateur sous forme de **commandes** (ajout de texte, suppression, annulation, rétablissement) permettant un historique fluide et réversible. |
+| 🔌 Adaptateur          | `Conception_Logiciels.PatronAdaptateurFacade`       | Un **module de paiement** adapte une API tierce (`StripeAPI`) à une interface maison (`PasserellePaiement`), grâce à deux types d’adaptateurs (par héritage et par composition), facilitant l’intégration et le changement d’API. |
+| 🔒 Singleton           | `Conception_Logiciels.PatronSingleton`              | Un **gestionnaire de session** garantit l’existence d’une **seule instance centrale** dans l’application pour suivre l’utilisateur actif, sécuriser les accès et gérer la connexion/déconnexion de façon contrôlée. |
+| 🔄 État                | `Conception_Logiciels.PatronEtat`                   | Un **système de connexion réseau** modifie dynamiquement son comportement (affichage, actions disponibles) en fonction de son **état courant** : déconnecté, tentative de connexion, ou connecté avec succès. |
+
+---
+
 
 ## 🗂️ Structure des dossiers
 
